@@ -9,7 +9,12 @@ public class Shark extends Animal {
         this.age = age;
     }
 
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     public int getWeight() {
         return weight;
     }
+
 }
